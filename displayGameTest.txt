@@ -1,0 +1,4 @@
+input       Expected Output                 Output
+[1,2,4,6]   1,2,4,6 matches centered        1,2,4,6 matches centered 
+[0,0]       No matches                      No matches
+[0,4,5,0]   No matches at start & end       No matches at start & end

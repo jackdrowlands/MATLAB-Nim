@@ -1,0 +1,7 @@
+userDataIn                          point           amountTaken         expected output                     output
+50	[1,6,4,6,4,3]	1	12x0	1   57,38           1                   1, [1,5,4,6,4,3], 1, 2,11*0         1, [1,5,4,6,4,3], 1, 2,11*0
+50	[1,6,4,6,4,3]	1	12x0	1   57,38           0                   Error, Invalid amount               Error, Invalid amount
+50	[1,6,4,6,4,3]	1	12x0	1   57,38          -1                   Error, Invalid amount               Error, Invalid amount
+50	[1,6,4,6,4,3]	1	12x0	1   57,38 57,60     1   1               Error, Wrong Row                    Error, Wrong Row
+50	[1,6,4,6,4,3]	1	12x0	1   57,38 57,38     1   1               1, [1,4,4,6,4,3], 1, 2,11*0         1, [1,4,4,6,4,3], 1, 2,11*0
+
